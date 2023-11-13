@@ -61,7 +61,7 @@
         "@ionaru/eve-utils": "^8.0.0",
         "@ionaru/format-number": "^5.0.0",
         "agentkeepalive": "^4.5.0",
-        "axios": "^1.6.1",
+        "axios": "^0.26",
         "better-sqlite3": "^9.1.1",
         "countdown": "^2.6.0",
         "debug": "^4.3.4",
