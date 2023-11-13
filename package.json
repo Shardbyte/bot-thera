@@ -43,7 +43,7 @@
         "@types/escape-string-regexp": "^2.0.1",
         "@types/jest": "^29.5.8",
         "@types/node": "^20.9.0",
-        "@typescript-eslint/eslint-plugin": "^6.7.4",
+        "@typescript-eslint/eslint-plugin": "^6.11.0",
         "eslint": "^8.51.0",
         "eslint-plugin-import": "^2.29.0",
         "eslint-plugin-jest": "^27.6.0",
