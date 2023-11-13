@@ -1,0 +1,41 @@
+# Check, Build, and Push Docker Image to Docker and Github package repositories.
+name: check-build-push
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 10 * * 7'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v4
+      -
+        name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: current
+      -
+        name: Audit
+        run: npm audit --omit=dev
+      -
+        name: Install Packages
+        run: npm ci
+      -
+        name: Run Tests
+        run: npm test
+      -
+        name: Run Tests
+        run: npm ci
+      -
+        name: Build
+        run: npm run build
