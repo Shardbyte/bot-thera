@@ -37,7 +37,7 @@
     "repository": "github:Ionaru/TheraBot",
     "license": "MIT",
     "devDependencies": {
-        "@ionaru/eslint-config": "^13.0.0",
+        "@ionaru/eslint-config": "^13.2.0",
         "@types/countdown": "^0.0.9",
         "@types/debug": "^4.1.9",
         "@types/escape-string-regexp": "^2.0.1",
