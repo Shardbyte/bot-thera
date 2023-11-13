@@ -26,7 +26,10 @@ jobs:
               run: npm audit --omit=dev
 
             - name: Install packages
-              run: npm ci
+              run: |
+                  npm update
+                  npm ci
+                  
 
             - name: Run tests
               run: npm test
