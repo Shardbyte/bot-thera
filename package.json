@@ -70,7 +70,7 @@
         "escape-string-regexp": "^5.0.0",
         "http-status-codes": "^2.3.0",
         "reflect-metadata": "^0.1.13",
-        "slash-create": "^5.14.0",
+        "slash-create": "^6.0.1",
         "typeorm": "^0.3.17"
     }
 }
