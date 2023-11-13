@@ -38,7 +38,7 @@
     "license": "MIT",
     "devDependencies": {
         "@ionaru/eslint-config": "^13.2.0",
-        "@types/countdown": "^0.0.9",
+        "@types/countdown": "^0.0.11",
         "@types/debug": "^4.1.9",
         "@types/escape-string-regexp": "^2.0.1",
         "@types/jest": "^29.5.8",
