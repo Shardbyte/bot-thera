@@ -62,7 +62,7 @@
         "@ionaru/format-number": "^5.0.0",
         "agentkeepalive": "^4.5.0",
         "axios": "^0.26",
-        "better-sqlite3": "^9.2.2",
+        "better-sqlite3": "^9.4.0",
         "countdown": "^2.6.0",
         "debug": "^4.3.4",
         "discord.js": "^14.14.1",
